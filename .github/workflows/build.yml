@@ -2,10 +2,10 @@ name: 'build'
 
 on:
   push:
-    branches: 
-      - master
-      - feature/*
-      - hotfix/*
+    # branches: 
+    #   - master
+    #   - feature/*
+    #   - hotfix/*
     tags:
       - linux-msft-wsl-*
   pull_request: {}
